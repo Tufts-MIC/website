@@ -65,3 +65,6 @@ typings/
 /package-lock.json
 
 # /dist/*
+
+# Mac-kun, daikirai desu! 
+.DS_Store 
