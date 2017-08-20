@@ -67,16 +67,11 @@ header .navigation {
 #menu-section {
     list-style-type: none;
     margin: 0 auto;
-    padding-top: 1em;
-    overflow: hidden;
+    /* padding-top: 1em; */
+    /* overflow: hidden; */
     float: left;
 }
 
-
-#menu {
-    margin: 0% 0% 0% 28%;
-    padding: 0px;
-}
 
 #menu li {
     float: left;
@@ -343,3 +338,4 @@ header .navigation {
 
 .footer-content {
     padding: 1em;
+}
