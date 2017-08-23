@@ -7,12 +7,15 @@
 
 .member-card {
     width: 15em;
+    max-height: 15em;
+    max-width: 15em;
     position: relative;
     margin: .5em;
 }
 
 .member-card .member-image {
     max-width: 100%;
+    max-height: 100%;
     height: auto;
     width: auto;
     border-radius: 2px;
@@ -57,14 +60,18 @@ transform: rotateY(180deg);
 
 /* hide back of pane during swap */
 .front, .back {
-    backface-visibility: hidden;
+    /* backface-visibility: hidden; */
+    height: 15em;
+    overflow: hidden;
 }
+
 
 /* front pane, placed above back */
 .front {
     z-index: 2;
     /* for firefox 31 */
     transform: rotateY(0deg);
+    /* display: none; */
 }
 
 /* back, initially hidden pane */
@@ -73,9 +80,5 @@ transform: rotateY(180deg);
     top: 0px;
     left: 0px;
     position: absolute;
-}
-
-.back .links {
-    margin-top: .5em;
-    bottom: 0px;
+    /* overflow: hidden; */
 }

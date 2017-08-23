@@ -6,7 +6,8 @@
 	<title>BUMIC</title>
 	<meta charset="UTF-8" />
 	<meta name="description" content="Boston University Machine Intelligence Community" />
-	<meta name="keywords" content="machine, learning, ai, artificial, intelligence, deep, learning, neural, network, mad, money, rich, join, us" />
+	<meta name="keywords" content="machine, learning, ai, artificial, intelligence, deep, learning, neural, network, mad, money, rich, join, us"
+	/>
 	<meta name="author" content="Justin Chen et al." />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="style/normalize.css" />
@@ -63,11 +64,14 @@
 	</header>
 
 	<div id="content">
+		<!-- Home section -->
 		<div id="home">
-			<div id="logo-wrapper">	
+			<div id="logo-wrapper">
 				<img id="logo" src="image/logo/micv2-591x255.png">
 			</div>
 		</div>
+
+		<!-- About section -->
 		<div id="about" class="content_section">
 			<h1 align="center">
 				ABOUT
@@ -81,7 +85,9 @@
 				</p>
 			</div>
 		</div>
-		<div id="about_pic" class="content_section"></div>
+		<div id="about-pic" class="parallax-section"></div>
+
+		<!-- News section -->
 		<div id="news" class="content_section">
 			<h1 align="center">
 				NEWS
@@ -105,7 +111,9 @@
 				</p>
 			</div>
 		</div>
-		<div id="news_pic" class="content_section"></div>
+		<div id="news-pic" class="parallax-section"></div>
+
+		<!-- Members section -->
 		<div id="members" class="content_section">
 			<div class="content-section">
 				<h1 style="text-align: center;">Members</h1>
@@ -126,13 +134,8 @@
 
 							<div class="back">
 								<div class="content">
-									<h3>About {{m.firstName}}:</h3>
 									<p class="bio">{{m.bio}}</p>
-									<h3>Fun fact:</h3>
-									<p>{{m.funFact}}</p>
-								</div>
-								<div class="links">
-									<a src="#">Github</a>
+									<!-- <p> <em>Fun fact:</em> {{m.funFact}}</p> -->
 								</div>
 							</div>
 							<!--&ndash;&gt;-->
@@ -142,7 +145,9 @@
 				</div>
 			</div>
 		</div>
-		<div id="members_pic" class="content_section"></div>
+		<div id="members-pic" class="parallax-section"></div>
+
+		<!-- Teams section -->
 		<div id="teams" class="content_section">
 			<h1 align="center">
 				TEAMS
@@ -164,6 +169,9 @@
 				</p>
 			</div>
 		</div>
+		<div id="team-pic" class="parallax-section"></div>
+
+		<!-- Projects section -->
 		<div id="projects" class="content_section">
 			<h1 align="center">
 				PROJECTS
@@ -185,7 +193,9 @@
 				</p>
 			</div>
 		</div>
-		<div id="members_pic" class="content_section"></div>
+		<div id="projects-pic" class="parallax-section"></div>
+
+		<!-- Blog section -->
 		<div id="blog" class="content_section">
 			<h1 align="center">
 				<a href="/blog">RECENT BLOGS</a>
@@ -213,12 +223,9 @@
 				</p>
 			</div>
 		</div>
-		<div id="blog_pic" class="content_section"></div>
-		<!-- <div id='proj_pic' class='content_section'>
-				<video playsinline autoplay muted loop poster="project_default.jpg" id="proj_vid">
-				    <source src="video/projects.mp4" type="video/mp4">
-				</video>
-			</div> -->
+		<div id="blog-pic" class="parallax-section"></div>
+
+		<!-- Sponsor section -->
 		<div id="sponsors" class="content_section">
 			<h1 align="center">
 				SPONSORS
@@ -240,6 +247,9 @@
 				</p>
 			</div>
 		</div>
+		<div class="parallax-section"></div>
+
+		<!-- Footer -->
 		<div id="footer">
 			<div class="footer-content">
 				Boston University | 111 Cummington Mall, Boston MA 02215

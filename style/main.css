@@ -1,3 +1,5 @@
+/* BUMIC logo */
+
 #logo-wrapper {
     text-align: center;
 }
@@ -12,4 +14,39 @@
     display: flex;
     flex-flow: column;
     justify-content: center;
+}
+
+/* Parallax and the pic in each */
+.parallax-section {
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#about-pic {
+    background-image: url('../image/section/bg0.jpg');
+}
+
+#news-pic {
+    background-image: url('../image/section/news.jpg');
+}
+
+
+#members-pic {
+    background-image: url('../image/section/members.jpg'); /* general members pic*/
+}
+projects-pic {
+    /*To be fill*/
+}
+
+#blog-pic {
+    background-image: url('../image/section/blog.jpg'); /* general members pic*/
+}
+
+/* Content section */
+.content-section {
+    padding: 0.5em;
+    height: auto;
+    margin: 0 auto;
 }
