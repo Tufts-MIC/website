@@ -67,10 +67,9 @@ header .navigation {
 #menu-section {
     list-style-type: none;
     margin: 0 auto;
-    /* padding-top: 1em; */
-    /* overflow: hidden; */
-    float: left;
 }
+
+
 
 
 #menu li {
