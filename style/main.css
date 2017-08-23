@@ -1,0 +1,15 @@
+#logo-wrapper {
+    text-align: center;
+}
+
+#logo-wrapper #logo {
+    max-width: 90%;
+    height: auto;
+    width: auto;
+}
+
+#home {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
