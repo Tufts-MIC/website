@@ -20,7 +20,7 @@ const vm = new Vue({
                 .map(t => ({
                     "name": t.first_name + " " + t.last_name,
                     "firstName": t.first_name,
-                    "pic": `image/members/squared/${t.first_name.toLowerCase()}.jpg`,
+                    "pic": `image/members/square2/${t.pic}`,
                     "bio": t.bio,
                     "funFact": t.fun_fact,
                     "year": t.year,
