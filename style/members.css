@@ -1,6 +1,8 @@
 .members {
 	display: flex;
 	flex-flow: row wrap;
+	justify-content: center;
+	justify-items: center;
 }
 .member-card {
 	width: 15em;
@@ -16,7 +18,7 @@
 }
 .member-card .member-name {
 	position: absolute;
-	bottom: 0px;
+	bottom: 5px;
 	padding: .5em;
 	color: white;
 	background: rgba(0, 0, 0, 0.7);
