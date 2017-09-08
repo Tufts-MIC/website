@@ -59,6 +59,8 @@ projects-pic {
     }
 }
 
+/* Sponsor section */
+
 .logo-stack {
     display: flex;
     flex-flow: column;
@@ -73,6 +75,22 @@ img.logo {
 }
 
 img.logo-long {
-    height: 5em;
+    height: auto;
+    width: 90%;
+}
 
+
+/* Team section */
+
+.advisor-info .wrapper {
+    display: flex;
+    flex-direction: row;
+}
+.advisor-avatar {
+    height: 10em;
+    margin: 0 1em 0 1em;
+}
+
+.team-info-wrapper {
+    padding: 0em 2em 0em 2em;
 }

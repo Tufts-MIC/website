@@ -1,6 +1,7 @@
 html,
 body {
   height: 100%;
+  width: 100%;
   font-family: "futura-pt-condensed", sans-serif;
   /*font-family: 'Avenir Black', 'Arial Black', sans-serif;*/
 }
@@ -67,6 +68,7 @@ header .navigation {
 #menu-section {
     list-style-type: none;
     margin: 0 auto;
+    /* width: 100%; */
 }
 
 
