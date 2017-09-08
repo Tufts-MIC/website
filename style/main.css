@@ -94,3 +94,23 @@ img.logo-long {
 .team-info-wrapper {
     padding: 0em 2em 0em 2em;
 }
+
+header .wrapper{
+    /* background-color: rgba(0,0,0,0.2); */
+    padding: 0;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+
+/* Calendar section */
+
+div.calendar{
+    margin: 0em 1em 0em 1em;
+}
+
+li.workshop{
+    list-style: none;
+}

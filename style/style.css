@@ -32,8 +32,8 @@ header {
     width: 100%;
     height: 2.5em;
     position: fixed;
-    display: flex;
-    flex-flow: row wrap;
+    padding: 0 !important;
+    height: auto;
 }
 
 header .navigation {
@@ -289,3 +289,4 @@ header .navigation {
 .footer-content {
     padding: 1em;
 }
+
