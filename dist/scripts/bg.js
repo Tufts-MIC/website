@@ -72,4 +72,4 @@ const makeBackgroundFor = function (elements) {
     })
 };
 
-makeBackgroundFor(["#home", "#projects-pic", "#teams-pic"]);
+makeBackgroundFor(["#home","#team-pic"]);

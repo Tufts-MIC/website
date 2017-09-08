@@ -65,14 +65,6 @@
 			"pic": "anton_njarvo.jpg"
 		},
 		{
-			"first_name": "Pratik",
-			"last_name": "Patel",
-			"year": "M.S. 2018, Computer Science",
-			"bio": "",
-			"fun_fact": "",
-			"pic": "pratik_patel.jpg"
-		},
-		{
 			"first_name": "Tammy",
 			"last_name": "Qiu",
 			"year": "B.A. 2019, Computer Science and Fine Art",
@@ -87,14 +79,6 @@
 			"bio": "I study AI because in my opinion it is the perfect catalyst to making the world a better place. Creating an MIC community is important in furthering the knowledge of machine learning as ideas grow and bounce between individuals.",
 			"fun_fact": "My friends call me brown suga.",
 			"pic": "ibrahim_shaikh.jpg"
-		},
-		{
-			"first_name": "Colin",
-			"last_name": "Stuart",
-			"year": "B.A. 2018, Neuroscience",
-			"bio": "",
-			"fun_fact": "",
-			"pic": "colin_stuart.jpg"
 		},
 		{
 			"first_name": "Zezhou",

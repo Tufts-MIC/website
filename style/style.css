@@ -189,7 +189,7 @@ header .navigation {
 }
 
 .content_section {
-    padding-top: 4em;
+    padding-top: 1em;
 }
 
 #home {
@@ -223,12 +223,6 @@ header .navigation {
     width: 100%;
 }
 
-#about {
-    min-height: 40vh;
-    width: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-}
 
 #about_pic {
     height: 70vh;
@@ -238,13 +232,7 @@ header .navigation {
     background-attachment: fixed;
 }
 
-#news {
-    min-height: 50vh;
-    height: auto;
-    width: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-}
+
 
 .article {
     margin: 2em 4em;
@@ -254,20 +242,7 @@ header .navigation {
     color: #242628;
 }
 
-#news_pic {
-    height: 70vh;
-    width: 100%;
-    background-image: url('../image/section/news.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-}
 
-#members {
-    height: 220vh;
-    width: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-}
 
 #test {
     background-color: white;
@@ -288,12 +263,7 @@ header .navigation {
     float: left;
 }
 
-#teams {
-    height: 70vh;
-    width: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-}
+
 
 #projects {
     height: 100vh;
@@ -302,27 +272,6 @@ header .navigation {
     background-attachment: fixed;
 }
 
-#proj_pic {
-    height: 70vh;
-    width: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-#blog_pic {
-    height: 70vh;
-    width: 100%;
-    background-image: url('../image/section/blog.jpg'); /* general members pic*/
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-#sponsors {
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-}
 
 #footer {
     margin: 0;

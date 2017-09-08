@@ -2,8 +2,16 @@
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-	justify-items: center;
+
 }
+
+@media(max-width: 425px){
+    .members{
+    	height: 20em;
+		width: 900%;
+    }
+}
+
 .member-card {
 	width: 15em;
 	height: 20em;
@@ -28,6 +36,7 @@
 }
 .member-card .flipper .back .content .bio {
 	font-size: smaller;
+	padding: 0.5em;
 }
 
 /* --- Flipping cards --- */
